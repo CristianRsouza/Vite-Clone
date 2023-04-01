@@ -1,0 +1,46 @@
+header {
+    padding: 20px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    width: 97%;
+    background: #1e1e20;
+    z-index: 10;
+    border: 1px solid black;
+}
+
+.Header_Logo {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.Header_Logo:hover {
+    opacity: 0.5;
+}
+.Header_Logo img {
+    width:  27px;
+    height: 27px;
+}
+.Header_Logo h1 {
+    color: white;
+    font-size: 15px;
+}
+
+.Header_Nav {
+    display: flex;
+    gap: 20px;
+}
+
+.Header_Nav h1{
+    display: flex;
+    font-size: 15px;
+    color: #ffffff79;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.Header_Nav h1:hover {
+    color: #4d53ff;
+}
